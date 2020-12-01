@@ -39,26 +39,45 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    "I'm a software engineer based in Lagos, Nigeria specializing in building exceptional websites, front end web applications and back end web api."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'I have three (3) years programming experience (freelance & professional). I code fluently in Javascript and PHP, currently learning C#.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || 'Liverpool FC. FIFA 21 anyone?'}
                 </p>
+
                 {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
+                  <div>
+                    <span className="d-flex mt-3">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume mr-3"
+                        href="https://drive.google.com/file/d/1yzrYaulDL0OTr4PjsDo8VdejUcPZL2Ci/view?usp=sharing"
+                      >
+                        Resume
+                      </a>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume mr-3"
+                        href="https://www.linkedin.com/in/gharoropureheart"
+                      >
+                        LinkedIn
+                      </a>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--resume"
+                        href="https://github.com/Gharoro"
+                      >
+                        Github
+                      </a>
+                    </span>
+                  </div>
                 )}
               </div>
             </Fade>
