@@ -31,9 +31,7 @@ const Header = () => {
             <br />
             {subtitle || "I'm a Full Stack Developer."}
             <br />
-            <p className="text-color-main">
-              {name || 'Javascript | React | NodeJs | PHP/Laravel | Learning C#/ASP.NET Core'}
-            </p>
+            <p className="text-color-main">{name || 'Javascript | React | NodeJs | PHP/Laravel'}</p>
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
