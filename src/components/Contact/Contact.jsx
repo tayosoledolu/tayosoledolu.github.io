@@ -21,10 +21,12 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href={email ? `mailto:${email}` : 'gharoropureheart@gmail.com'}
             >
               {btn || "Let's Talk"}
             </a>
+
+            <p className="contact-wrapper__phone mt-3">{cta || 'Or Call +234 814 461 8246'}</p>
           </div>
         </Fade>
       </Container>

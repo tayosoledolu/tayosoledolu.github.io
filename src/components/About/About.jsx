@@ -39,11 +39,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    "I'm a software engineer based in Lagos, Nigeria specializing in building exceptional websites, front end web applications and back end web api."}
+                    "I'm a Software Engineer based in Lagos, Nigeria specializing in building both front and backend web applications. Passionate about coding and providing guidance to junior developers."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'I have three (3) years programming experience (freelance & professional). I code fluently in Javascript and PHP.'}
+                    "Some of the technologies I've worked with includes HTML & (S)CSS, Javascript (ES6+), Typescript, ReactJs, Nodejs, Laravel and Ruby on Rails. I love learning new technologies as I strive for mastery of my craft."}
                 </p>
 
                 {resume && (
@@ -53,7 +53,7 @@ const About = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--resume mr-3"
-                        href="https://drive.google.com/file/d/1yzrYaulDL0OTr4PjsDo8VdejUcPZL2Ci/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1n8vwbsR_7eHetzt2gSKqO7zjjc_ToxFL/view?usp=sharing"
                       >
                         Resume
                       </a>
@@ -68,7 +68,7 @@ const About = () => {
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--resume"
+                        className="cta-btn cta-btn--resume mr-3"
                         href="https://github.com/Gharoro"
                       >
                         Github
